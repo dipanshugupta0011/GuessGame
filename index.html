@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <div class="bg-container">
+      <div class="card-container">
+        <h1>Guessing Game</h1>
+
+        <div class="img-container">
+          <img src="image/guess1.jpg" class="guess-imoji" />
+        </div>
+
+        <p>Find out the right number between 1 to 100</p>
+        <h2>Guess The Number</h2>
+        <input type="text" id="inputElement" />
+        <div class="btn-container">
+          <button onclick="checkOff()">Check</button>
+        </div>
+        <div class="para-container">
+            <div class="paragraph-result-text-container">
+                <p class="paragraph-result-text" id="gameResult"></p>
+              </div>
+        </div>
+       
+    </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
